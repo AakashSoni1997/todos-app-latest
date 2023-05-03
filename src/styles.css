@@ -1,0 +1,56 @@
+.App {
+  font-family: sans-serif;
+}
+.link-style {
+  text-decoration: none;
+  color: white;
+}
+.signup-form {
+  background-color: lightgray;
+  padding: 10px;
+  margin: 40px 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.signup-form > form {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0.8;
+  gap: 10px;
+}
+
+.signup-form > form > button {
+  margin-top: 10px;
+  border-radius: 4px;
+  padding: 4px;
+  border: none;
+  height: 40px;
+  background-color: #2378e9;
+}
+.signup-form > form > input {
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  background-color: lightyellow;
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+  font-weight: 700;
+}
+.custom_check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.custom_check > input {
+  height: 20px;
+}
